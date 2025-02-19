@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Cinzel:wght@400..900&family=Libre+Caslon+Display&family=Orbitron:wght@400..900&family=Pacifico&family=Pochaevsk&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Caveat:wght@400..700&family=Cinzel:wght@400..900&family=Libre+Caslon+Display&family=Orbitron:wght@400..900&family=Pacifico&family=Pochaevsk&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Badeen+Display&family=Bebas+Neue&family=Caveat:wght@400..700&family=Cinzel:wght@400..900&family=Libre+Caslon+Display&family=Orbitron:wght@400..900&family=Pacifico&family=Pangolin&family=Playball&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+HU+Guides&family=Pochaevsk&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <title>PROJECT</title>
+  
+</head>
+<style>
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fefbfb;
+}
+.scroll{
+  background-color: #040404;
+  color: #fefbfb;
+ font-style: italic;
+  
+}
+
+header {
+  background-color: #040404;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+
+}
+h1{
+  font-family: "Shadows Into Light", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.products1{
+  display:flex;
+  justify-content: space-around;
+  padding: 20px;
+  
+}
+.products2{
+  display:flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.products3{
+  display:flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.products4{
+  display:flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.product {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+}
+
+.product img {
+  max-width:100%;
+  height: auto;
+}
+
+.cart {
+  display:flex;
+  position: absolute;
+  top:0;
+  left: 180vh;
+  bottom: 10px;
+  padding: 30px;
+  color: white;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  bottom: 0;
+}
+button{
+  background-color: #100707;
+  color: white;
+  border-radius:8px;
+  
+}
+.v2{
+  display:flex;
+  font-size: 50px;
+  background-color: #040404;
+  color: #ddd;
+}
+
+.ftr{
+  justify-content: space-between;
+  font-family: "Advent Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.strut{
+  display: flex;
+  font-size:50px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  justify-content: space-between;
+  background-color: rgb(242, 52, 52);
+  color: #fefbfb;
+}
+.v2{
+  position: relative;
+
+}
+.last{
+  position: absolute;
+  top:0;
+  left: 5vh;
+  bottom:10vh;
+  color: rgb(238, 232, 233);
+  font-family: "Shadows Into Light", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+</style>
+<body>
+ <div class="scroll">
+  <marquee behavior="" direction="left">"The right shoes turn effort into progress, one step, one mile, one run at a time."
+  </marquee>
+ </div>
+  <header>
+    <h1>STRUT</h1>
+    <nav>
+      <ul>
+       
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <section class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <ul id="cart-items"></ul>
+        <p>Total cart value: $<span id="cart-total">0.00</span></p>
+      </section>
+    </nav>
+  </header>
+
+  <main>
+    <section class="products1">
+      <div class="product">
+        <img src="https://redtape.com/cdn/shop/files/RSO4055_1.jpg?v=1738327070" alt="Shoe 1">
+        <h2>Running Shoe</h2>
+        <p>$99.99</p>
+        <button onclick="addToCart('Running Shoe', 99.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://redtape.com/cdn/shop/files/RSO4034_1_40cd841c-11dc-4c78-ab85-bfad034e31fe.jpg?v=1738330757" alt="Shoe 2">
+        <h2>Casual Shoe</h2>
+        <p>$79.99</p>
+        <button onclick="addToCart('Casual Shoe', 79.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://redtape.com/cdn/shop/files/RSO4102_1_c0a68240-77e5-4003-8465-bff2bb2280a7.jpg?v=1738392818" alt="Shoe 3">
+        <h2>Sports Shoe</h2>
+        <p>$129.99</p>
+        <button onclick="addToCart('Sports Shoe', 129.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://redtape.com/cdn/shop/files/RSO4034_1_40cd841c-11dc-4c78-ab85-bfad034e31fe.jpg?v=1738330757" alt="Shoe 2">
+        <h2>Casual Shoe</h2>
+        <p>$79.99</p>
+        <button onclick="addToCart('Casual Shoe', 79.99)">Add to Cart</button>
+      </div>
+      
+    
+    </section>
+  </main>
+  <section class="products2">
+  <div class="product">
+    <img src="https://assets.ajio.com/medias/sys_master/root/20240814/m3nf/66bc86826f60443f31089f79/-473Wx593H-700287693-green-MODEL.jpg" alt="Shoe 4">
+    <h2>Running Shoe</h2>
+    <p>$89.99</p>
+    <button onclick="addToCart('Running Shoe', 99.99)">Add to Cart</button>
+  </div>
+  <div class="product">
+    <img src="https://assets.ajio.com/medias/sys_master/root/20240929/JPar/66f8f839260f9c41e83f75fc/-1117Wx1400H-700511268-white-MODEL.jpg" alt="Shoe 5">
+    <h2>Casual Shoe</h2>
+    <p>$69.99</p>
+    <button onclick="addToCart('Casual Shoe', 79.99)">Add to Cart</button>
+  </div>
+  <div class="product">
+    <img src="https://assets.ajio.com/medias/sys_master/root/20240814/NjU4/66bc87436f60443f3108b7a8/-1117Wx1400H-700287693-blue-MODEL.jpg" alt="Shoe 6">
+    <h2>Sports Shoe</h2>
+    <p>$99.99</p>
+    <button onclick="addToCart('Sports Shoe', 129.99)">Add to Cart</button>
+  </div>
+  <div class="product">
+    <img src="https://assets.ajio.com/medias/sys_master/root/20240625/kCDJ/667a02521d763220fa15cb00/-473Wx593H-700123670-white-MODEL.jpg" alt="Shoe 6">
+    <h2>Sports Shoe</h2>
+    <p>$99.99</p>
+    <button onclick="addToCart('Sports Shoe', 129.99)">Add to Cart</button>
+  </div>
+  </section>
+
+  <div class="strut">
+    <img src="https://t3.ftcdn.net/jpg/11/46/76/94/360_F_1146769416_rucc531uW8iUDpv6JXoldTLrDqmrQCQK.jpg" alt="">
+    <p>"SALE IS LIVE"</p>
+    <P>"UPTO 25% OFF"</P>
+    
+  </div>
+ 
+  <section class="products3">
+    <div class="product">
+      <img src="https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/29422700/2024/10/4/d8806c6d-06a3-430f-81e1-ed686b4eeff61728032378361-Red-Tape-Men-Textured-Lace-Up-Walking-Shoes-9871728032377784-1.jpg" alt="Shoe 7">
+      <h2>Running Shoe</h2>
+      <p>$99.99</p>
+      <button onclick="addToCart('Running Shoe', 99.99)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/27613124/2024/2/16/d20c1f91-4314-4636-9d9b-74f86d5cbc0c1708075494938NITRO723LighweightComfortableBreathableTrendyRunningLaceUpSp1.jpg" alt="Shoe 8">
+      <h2>Casual Shoe</h2>
+      <p>$95.99</p>
+      <button onclick="addToCart('Casual Shoe', 79.99)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/28132180/2024/4/25/c4e369d7-ac1b-4775-907f-767fbfda7aa31714023109364-Red-Tape-Men-Textured-Lace-Up-Walking-Shoes-8801714023108880-1.jpg" alt="Shoe 9">
+      <h2>Sports Shoe</h2>
+      <p>$89.99</p>
+      <button onclick="addToCart('Sports Shoe', 129.99)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://abrosshoes.com/cdn/shop/files/WhiteGlacier_0000_000A1741.jpg?v=1737962820&width=2048" alt="Shoe 9">
+      <h2>Sports Shoe</h2>
+      <p>$89.99</p>
+      <button onclick="addToCart('Sports Shoe', 129.99)">Add to Cart</button>
+    </div>
+    </section>
+  
+
+    <section class="products4">
+      <div class="product">
+        <img src="https://redtape.com/cdn/shop/files/RSO3904_1_976b4f33-9cc9-46b7-80cf-7ef31fa05811.jpg?v=1738330446" alt="Shoe 10">
+        <h2>Running Shoe</h2>
+        <p>$59.99</p>
+        <button onclick="addToCart('Running Shoe', 99.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://redtape.com/cdn/shop/files/RSO3562A_1.jpg?v=1738331623" alt="Shoe 11">
+        <h2>Casual Shoe</h2>
+        <p>$79.99</p>
+        <button onclick="addToCart('Casual Shoe', 79.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://redtape.com/cdn/shop/files/RSO4071A_1.jpg?v=1738327946" alt="Shoe 12">
+        <h2>Sports Shoe</h2>
+        <p>$88.99</p>
+        <button onclick="addToCart('Sports Shoe', 129.99)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://redtape.com/cdn/shop/files/RSO3902_1_284691d1-8ec9-4cfa-9425-52e91b3200a8.jpg?v=1738395627" alt="Shoe 12">
+        <h2>Sports Shoe</h2>
+        <p>$88.99</p>
+        <button onclick="addToCart('Sports Shoe', 129.99)">Add to Cart</button>
+      </div>
+      </section>
+    <div class="v2">
+      <img src="https://i.pinimg.com/736x/0d/69/cc/0d69cc4cba8c12f22d1d8f3d4717a8b7.jpg" alt="">
+      <p>"The miracle isn't that I finished. The miracle is that I had the courage to start."</p>
+      <div class="last">
+        <p>STRUT</p>
+      </div>
+    </div>
+    
+
+  <footer class="ftr">
+    <p>&copy; 203 Shoe Store. All rights reserved.</p>
+    <p> Contact us</p>
+
+    <i class="fa-brands fa-x-twitter"></i>
+    <i class="fa-brands fa-square-facebook"></i>
+    <i class="fa-regular fa-paper-plane"></i>
+    <i class="fa-brands fa-instagram"></i>
+
+   
+  </footer>
+  
+<script>
+  let cart = [];
+let total = 0;
+
+function addToCart(name, price) {
+  cart.push({ name, price });
+  total += price;
+  updateCart();
+}
+
+function updateCart() {
+  const cartItems = document.getElementById('cart-items');
+  const cartTotal = document.getElementById('cart-total');
+
+  // Clear the cart display
+  cartItems.innerHTML = '';
+
+  // Add each item to the cart display
+  
+ 
+
+  // Update the total
+  cartTotal.textContent = total.toFixed(2);
+}
+</script>
+
+</body>
+</html>
